@@ -6,8 +6,8 @@ export default {
   HERO_DESC: 'Prompt, run, edit, and deploy full-stack web apps.',
   INPUT_PLACEHOLDER: 'What you want to build?',
   SIGNIN_HEADING: 'Welcome to BuildASite',
-  SIGNIN_SUBHEADING: 'To use BuilASite you must log into an existing account or create one.',
-  SIGNIn_AGREEMENT_TEXT: 'By using BuilASite, you agree to the collection of usage data for analytics.',
+  SIGNIN_SUBHEADING: 'To use BuildASite you must log into an existing account or create one.',
+  SIGNIn_AGREEMENT_TEXT: 'By using BuildASite, you agree to the collection of usage data for analytics.',
 
 
   DEFAULT_FILE: {
