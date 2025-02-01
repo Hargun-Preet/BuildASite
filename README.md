@@ -1,5 +1,5 @@
 # BuildASite
-BuildASite is a powerful, user-friendly web application that allows developers to quickly create React-based applications by answering simple prompts. Whether you're building a prototype or starting a new project, this tool simplifies the process by generating fully functional React apps with just a few clicks.
+BuildASite is a powerful, user-friendly web application that allows developers to quickly create React-based applications by giving simple prompts. Whether you're building a prototype or starting a new project, this tool simplifies the process by generating fully functional React apps with just a few clicks.
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Live Link
