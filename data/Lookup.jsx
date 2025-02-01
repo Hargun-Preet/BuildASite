@@ -5,9 +5,9 @@ export default {
   HERO_HEADING: 'What do you want to build?',
   HERO_DESC: 'Prompt, run, edit, and deploy full-stack web apps.',
   INPUT_PLACEHOLDER: 'What you want to build?',
-  SIGNIN_HEADING: 'Welcome to VortexAI',
-  SIGNIN_SUBHEADING: 'To use VCodeAI you must log into an existing account or create one.',
-  SIGNIn_AGREEMENT_TEXT: 'By using VCodeAI, you agree to the collection of usage data for analytics.',
+  SIGNIN_HEADING: 'Welcome to BuildASite',
+  SIGNIN_SUBHEADING: 'To use BuilASite you must log into an existing account or create one.',
+  SIGNIn_AGREEMENT_TEXT: 'By using BuilASite, you agree to the collection of usage data for analytics.',
 
 
   DEFAULT_FILE: {
