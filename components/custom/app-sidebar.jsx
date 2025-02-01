@@ -17,7 +17,7 @@ const AppSidebar = () => {
     return (
         <Sidebar>
             <SidebarHeader className="p-5" >
-                <Image src={'/logo.png'} alt={'logo'} width={30} height={30} />
+                <Image src={'/logo1.png'} alt={'logo'} width={30} height={30} />
                 <Button className="mt-5"> <MessageCircleCode />Start new chat</Button>
             </SidebarHeader>
             <SidebarContent className="px-5">

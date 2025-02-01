@@ -41,8 +41,8 @@ const Hero = () => {
     };
 
     return (
-        <div className='flex flex-col items-center mt-36 xl:mt-52 gap-2'>
-            <h2 className='font-bold text-4xl'>{Lookup.HERO_HEADING}</h2>
+        <div className='flex flex-col items-center mt-36 xl:mt-36 gap-2'>
+            <h2 className='font-bold text-5xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient'>{Lookup.HERO_HEADING}</h2>
             <p className='text-gray-400 font-medium'>{Lookup.HERO_DESC}</p>
             <div className='p-5 border rounded-xl max-w-xl w-full mt-3' style={{ backgroundColor: Colors.BACKGROUND }}>
                 <div className='flex gap-2'>

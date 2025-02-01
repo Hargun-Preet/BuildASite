@@ -26,7 +26,7 @@ const Header = () => {
     return (
         <div className='p-4 flex justify-between items-center h-15'>
             <Link href={'/'}>
-                <Image src={'/logo.png'} alt="logo" width={40} height={40} ></Image>
+                <Image src={'/logo1.png'} alt="logo" width={45} height={45} ></Image>
             </Link>
             {!userDetail?.name ? <div className="flex gap-5">
                 <Button variant="ghost">Sign in</Button>
@@ -35,12 +35,12 @@ const Header = () => {
                 }}>Get Started</Button>
             </div> :
                 <div className="flex gap-2 items-center">
-                    {path?.includes('workspace') && <div>
+                    {path?.includes('workspace') && <div className = "gap-2">
                         <Button variant="ghost" onClick={() => onActionBtn('export')}> <LucideDownload />Export</Button>
                         <Button className="text-white bg-blue-500 hover:bg-blue-600" onClick={() => onActionBtn('deploy')}><Rocket />Deploy</Button>
                     </div>}
 
-                    <Image src={userDetail?.picture} alt='user' width={30} height={30} className='rounded-full w-[30px]' onClick={toggleSidebar} />
+                    <Image src={userDetail?.picture} alt='user' width={30} height={30} className='rounded-full w-[30px] cursor-pointer' onClick={toggleSidebar} />
                 </div>
 
             }
