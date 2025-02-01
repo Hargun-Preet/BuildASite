@@ -3,7 +3,7 @@ BuildASite is a powerful, user-friendly web application that allows developers t
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Live Link
-[build-a-site.netlify.app](build-a-site.netlify.app)
+Check out my project: [Build A Site](https://build-a-site.netlify.app/)
 
 ## Getting Started
 ## Setup .env.local File
